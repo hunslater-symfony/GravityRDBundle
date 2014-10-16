@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "6334b6a77361b5941f307754eaeb50e2",
+    "packages": [
+        {
+            "name": "hunslater/gravity-rd",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hunslater-symfony/GravityRD.git",
+                "reference": "db1eba094be7971cd44dfb5ff4999737985d1c02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hunslater-symfony/GravityRD/zipball/db1eba094be7971cd44dfb5ff4999737985d1c02",
+                "reference": "db1eba094be7971cd44dfb5ff4999737985d1c02",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "GravityRD_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bozsányi Ádám",
+                    "email": "hunslater@gmail.com"
+                }
+            ],
+            "description": "Gravity R&D - PHP Client",
+            "homepage": "https://developers.gravityrd.com/display/DEV/PHP",
+            "keywords": [
+                "analitycs",
+                "recommendation",
+                "tracking"
+            ],
+            "time": "2014-10-16 09:05:41"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "hunslater/gravity-rd": 20
+    },
+    "prefer-stable": false,
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

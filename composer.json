@@ -7,6 +7,6 @@
         }
     ],
     "require": {
-
+        "hunslater/gravity-rd": "dev-master"
     }
 }
