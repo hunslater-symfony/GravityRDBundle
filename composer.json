@@ -1,5 +1,7 @@
 {
     "name": "hunslater/gravity-rd-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
     "authors": [
         {
             "name": "Bozsányi Ádám",
@@ -8,5 +10,10 @@
     ],
     "require": {
         "hunslater/gravity-rd": "dev-master"
-    }
+    },
+    "autoload": {
+        "psr-0": { "Hunslater\\GravityRDBundle": "" }
+    },
+
+    "target-dir": "Hunslater/GravityRDBundle"
 }
